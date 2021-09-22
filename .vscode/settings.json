@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "[json]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.enable": true,
+  "deno.unstable": true,
+  "deno.importMap": "./import_map.json",
+  "deno.suggest.imports.hosts": {
+    "https://esm.sh": false
+  }
+}
